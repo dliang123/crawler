@@ -14,3 +14,4 @@ bin/*
 bin
 *.versionsBackup
 *.releaseBackup
+auto_home_spu
