@@ -17,5 +17,9 @@
             <groupId>cn.edu.hfut.dmic.webcollector</groupId>
             <artifactId>WebCollector</artifactId>
         </dependency>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi</artifactId>
+        </dependency>
     </dependencies>
 </project>

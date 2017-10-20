@@ -43,7 +43,7 @@
         <slf4j.version>1.7.25</slf4j.version>
         <com.fasterxml.jackson.version>2.7.4</com.fasterxml.jackson.version>
         <webcollector.version>2.71</webcollector.version>
-
+        <poi.version>3.15</poi.version>
     </properties>
     <!-- 软件配置管理 -->
     <scm>
@@ -83,6 +83,11 @@
     <!--</distributionManagement>-->
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>org.apache.poi</groupId>
+                <artifactId>poi</artifactId>
+                <version>${poi.version}</version>
+            </dependency>
             <dependency>
                 <groupId>com.yt.crawler</groupId>
                 <artifactId>portal</artifactId>
